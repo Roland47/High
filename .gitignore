@@ -85,6 +85,6 @@ def deprocess(net, img):
         detail = src.data[0]-octave_base
     # returning the resulting image
     return deprocess(net, src.data[0])
-    img = np.float32(PIL.Image.open('sky1024px.jpg'))
+    img = np.float32(PIL.Image.open('372a89c1549b11f71f4595d811e4246a'))
 showarray(img)
 
